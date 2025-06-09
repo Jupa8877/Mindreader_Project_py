@@ -19,7 +19,7 @@ if player > 3 or player < 1:
     sys.exit("Your must enter 1, 2 or 3")
 
 computerchoice = random.choice("123")
-computer = int(computerchoice)
+computer = int(computerchoice) #Overwriting computerchoice with int
 
 # using variables for clean code.
 win = "😄You win🏆🥇"
