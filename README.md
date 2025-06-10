@@ -11,8 +11,9 @@ Mindreader Game
 4. Added player inputer cheker functions to check length of codes and inputs are from the 6 letters
 5. It took longer than my thought because I couldn't find a bug that was in the comparer function as follow. Rubberducking actually helps a lot.
 
-if player_code == computer_code:
+    if player_code == computer_code:
         print("Congratulations!! You found out what the code is!! \nComputer: " + str(computer_code) + "\nPlayer: " + str(player_code))
+    
     
     else:
         

@@ -67,6 +67,7 @@ def comparer(computer_code, player_code):
     correct_ltr_pst_count = 0 # Correct letter in a correct position counter
     correct_letter_count = 0 # Correct letter counter  
     # Setting options to win the game.
+    
     if player_code == computer_code:
         print("Congratulations!! You found out what the code is!! \nComputer: " + str(computer_code) + "\nPlayer: " + str(player_code))
     
