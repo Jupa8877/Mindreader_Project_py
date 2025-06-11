@@ -67,7 +67,7 @@ def comparer(computer_code, player_code):
     correct_ltr_pst_count = 0 # Correct letter in a correct position counter
     correct_letter_count = 0 # Correct letter counter  
     # Setting options to win the game.
-    
+
     if player_code == computer_code:
         print("Congratulations!! You found out what the code is!! \nComputer: " + str(computer_code) + "\nPlayer: " + str(player_code))
     
@@ -85,15 +85,6 @@ def comparer(computer_code, player_code):
         print("Also you have " + str(correct_letter_count) + " letters in different position(s)")
         
 
-
-        
-            
-                        
-
-
-
-
-
 def game():
     computer_code = code_gen()
     player_code = code_input()
@@ -102,25 +93,7 @@ def game():
     print("Player: " + str(player_code))
 
      
-    # try_limit = TRY
-    # for i in range(TRY):
-    #     try_limit -= 1
-    #     if try_limit == 0: 
-    #         print("You already spent all your turns \nThe game is over")
-    #         playagain = input("Do you want to play the game again? (y or n)").lower() #Asking to replay the game
-                    
-    #         if playagain == 'y' or 'n':
-    #             if playagain == 'y':
-    #                     game()
-    #             else:
-    #                 break
-    #         else: # When players typed in wrong answers
-    #             while playagain != 'y' or 'n':
-    #                 playagain = input("Please type in only y or n to decide to play the game again")
-    #                 if playagain == 'y':
-    #                     game()
-    #                 else:
-    #                     break
+    
     
     for i in range(TRY):
         turns -= 1
