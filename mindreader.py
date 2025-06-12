@@ -92,9 +92,6 @@ def game():
     print("Computer: " + str(computer_code))
     print("Player: " + str(player_code))
 
-     
-    
-    
     for i in range(TRY):
         turns -= 1
         comparer(computer_code, player_code)
